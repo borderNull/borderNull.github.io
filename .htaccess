@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(android|backend|index|ui-design)(\.html|\.php)?$ $1.php
