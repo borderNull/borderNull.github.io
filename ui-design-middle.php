@@ -1016,10 +1016,10 @@
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 trend-inner">
                             <ul class="trend-list portfolio-list">
                                 <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Grigory Uskov">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image" data-lightbox="gallery"></a>
-                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image" data-lightbox="gallery"></a>
-                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image" data-lightbox="gallery"></a>
-                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image" data-lightbox="gallery"></a>
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image"></a>
+                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image"></a>
+                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image"></a>
+                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/nearst-app-preview.png"></i>
@@ -1028,8 +1028,8 @@
                                         <p>Grigory Uskov</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/wardrobe.jpg" class="nav-link fancybox" data-lightbox="gallery2"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Tatiana Mak">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/wardrobe.jpg" class="nav-link chocolat-image"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/wardrobe-preview.jpg" class="ico-1"></i>
@@ -1038,8 +1038,8 @@
                                         <p>Tatiana Mak</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/costs-tracker.png" class="nav-link fancybox" data-lightbox="gallery3"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Elizaveta Borys">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/costs-tracker.png" class="nav-link chocolat-image"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/cost-tracker-preview.png" class="ico-1"></i>
@@ -1048,8 +1048,8 @@
                                         <p>Elizaveta Borys</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/pizza-alarm.png" class="nav-link fancybox" data-lightbox="gallery4"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Anna Morozova">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/pizza-alarm.png" class="nav-link chocolat-image" data-lightbox="gallery4"></a>
                                     <a href="./img/design/students-works/pizza-alarm2.png" class="nav-link fancybox" data-lightbox="gallery4"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
@@ -1059,13 +1059,13 @@
                                         <p>Anna Morozova</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Evgeny Baranov">
                                 <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/filantrop.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
-                                    <a href="./img/design/students-works/filantrop2.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
-                                    <a href="./img/design/students-works/filantrop3.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
-                                    <a href="./img/design/students-works/filantrop4.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
-                                    <a href="./img/design/students-works/filantrop5.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
-                                    <a href="./img/design/students-works/filantrop6.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
+                                    <a href="./img/design/students-works/filantrop2.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
+                                    <a href="./img/design/students-works/filantrop3.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
+                                    <a href="./img/design/students-works/filantrop4.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
+                                    <a href="./img/design/students-works/filantrop5.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
+                                    <a href="./img/design/students-works/filantrop6.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/filantrop-preview.png">
@@ -1074,8 +1074,8 @@
                                         <p>Evgeny Baranov </p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/eda-ryadom.png" class="nav-link fancybox" data-lightbox="gallery6"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Ksenia Novikova">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/eda-ryadom.png" class="nav-link chocolat-image" data-lightbox="gallery6"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/eda-preview.png">
@@ -1084,8 +1084,8 @@
                                         <p>Ksenia Novikova</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/walker.png" class="nav-link fancybox" data-lightbox="gallery7"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Vladimir Voladores">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/walker.png" class="nav-link chocolat-image" data-lightbox="gallery7"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/walker-preview.png">
@@ -1094,8 +1094,8 @@
                                         <p>Vladimir Voladores</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4 active">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/jet-sales.jpg" class="nav-link fancybox" data-lightbox="gallery8"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4 active" data-chocolat-title="Marat Khusyainov">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/jet-sales.jpg" class="nav-link chocolat-image" data-lightbox="gallery8"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/jet-sales-preview.jpg">
@@ -1104,8 +1104,8 @@
                                         <p>Marat Khusyainov</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/smart-book.png" class="nav-link fancybox" data-lightbox="gallery89"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Владислав Гетманенко">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/smart-book.png" class="nav-link chocolat-image" data-lightbox="gallery89"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/smart-book-preview.jpg">
