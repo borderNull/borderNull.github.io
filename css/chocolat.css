@@ -21,8 +21,9 @@
     position:fixed;
     left:0;
     top:0;
-    z-index:16;
+    z-index:70;
     color: #fff;
+    overflow-y: scroll;
 }
 .chocolat-zoomable .chocolat-img{
     cursor : zoom-in;
@@ -40,7 +41,7 @@
     display:none;
 }
 .chocolat-content{
-    position:fixed;
+    position:absolute;
     width:0px;
     height:0px;
     left:50%;

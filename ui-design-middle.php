@@ -17,6 +17,7 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     
      <link href="./css/chocolat.css" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="./css/lightbox.css"> -->
 
 
     <script>
@@ -1016,10 +1017,10 @@
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 trend-inner">
                             <ul class="trend-list portfolio-list">
                                 <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Grigory Uskov">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image"></a>
-                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image"></a>
-                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image"></a>
-                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image"></a>
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
                                             <img src="./img/design/students-works/nearst-app-preview.png"></i>
@@ -1060,7 +1061,7 @@
                                     </div>
                                 </li>
                                 <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Evgeny Baranov">
-                                <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/filantrop.png" class="nav-link fancybox" data-lightbox="gallery5"></a>
+                                <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/filantrop.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
                                     <a href="./img/design/students-works/filantrop2.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
                                     <a href="./img/design/students-works/filantrop3.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
                                     <a href="./img/design/students-works/filantrop4.png" class="nav-link chocolat-image" data-lightbox="gallery5"></a>
@@ -1424,7 +1425,7 @@
                         </div>
                     </div>
                     <!--Порекомендуйте -->
-                    <div id="block-14" class="stack-wrap share-block share-under-form" style="z-index: 50">
+                    <div id="block-14" class="stack-wrap share-block share-under-form" style="z-index: 10">
                         <div class="wrap-container">
                             <p class="title">Порекомендуйте курс друзьям!</p>
                             <div class="result-inner row">
@@ -1585,9 +1586,19 @@
             <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
                 <script src="./js/jquery.chocolat.js"></script>
                 <script>
-                $(".trend-list-item").Chocolat();
+                $(".trend-list-item").Chocolat({
+                    'imageSize':'cover',
+                    'enableZoom':false
+                });
             </script>
             
+            
+             <!-- <script src="./js/lightbox.js"></script>
+             <script>
+                 lightbox.option({
+                  'fitImagesInViewport': false
+                })
+             </script> -->
             <!-- Yandex.Metrika counter -->
             <script type="text/javascript">
             (function(d, w, c) {

@@ -204,7 +204,7 @@
             return {
                 'height' : height,
                 'width'  : width,
-                'top'    : (holderHeight - height)/2,
+                'top'    : 0,
                 'left'   : (holderWidth - width)/2
             };
         },
