@@ -15,11 +15,6 @@
     
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    
-     <link href="./css/chocolat.css" rel="stylesheet">
-    <!--  <link rel="stylesheet" href="./css/lightbox.css"> -->
-
-
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,7 +28,7 @@
 </head>
 
 <body>
-    <div id="loader" style="position: fixed;top: 0;bottom: 0;right: 0;left: 0;z-index: 9999;background-color: #000;">
+    <div id="loader" style="position: fixed;top: 0;bottom: 0;right: 0;left: 0;z-index: 9999;background-color: #000;"><img src="/img/preloader_skb.gif" alt="" style="position: absolute; top:50%;left:50%;transform:translate(-50%,-50%);">
     </div>
     <!--<img src="img/photo0000.png" class="img-out" alt="photo0000">-->
     <div id="login" class="modal-window">
@@ -1003,7 +998,7 @@
                 </div>
             </section>
             <!-- Работы победителей -->
-            <section id="block-portfolio" class="portfolio-wrap" style="margin-bottom:50px;">
+            <section id="block-portfolio" class="portfolio-wrap" style="margin-bottom:50px;border-bottom: 1px solid #c4c8cf;">
                 <div class="wrap-container">
                     <div class="title-wrap row">
                         <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2 line-wrap">
@@ -1016,17 +1011,14 @@
                     <div class="trend-wrap row">
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 trend-inner">
                             <ul class="trend-list portfolio-list">
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Grigory Uskov">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
-                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
-                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
-                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                             <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Владислав Гетманенко">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/smart-book.png" class="nav-link chocolat-image" data-lightbox="gallery89"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
-                                            <img src="./img/design/students-works/nearst-app-preview.png"></i>
+                                            <img src="./img/design/students-works/smart-book-preview.jpg">
                                         </div>
-                                        <p>Nearst app </p>
-                                        <p>Grigory Uskov</p>
+                                        <p>Smart Audiobook Reader 2.0</p>
+                                        <p>Владислав Гетманенко</p>
                                     </div>
                                 </li>
                                 <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Tatiana Mak">
@@ -1105,14 +1097,17 @@
                                         <p>Marat Khusyainov</p>
                                     </div>
                                 </li>
-                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Владислав Гетманенко">
-                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/smart-book.png" class="nav-link chocolat-image" data-lightbox="gallery89"></a>
+                                <li class="trend-list-item col-xs-12 col-sm-4 col-md-4 col-lg-4" data-chocolat-title="Grigory Uskov">
+                                    <a style="position:absolute;width:300px;height:300px;z-index:9;" href="./img/design/students-works/nearst-app.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app2.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app3.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
+                                    <a href="./img/design/students-works/nearst-app4.png" class="nav-link chocolat-image" data-lightbox="image-1"></a>
                                     <div class="trend-list-item-inner">
                                         <div class="ico-wrap">
-                                            <img src="./img/design/students-works/smart-book-preview.jpg">
+                                            <img src="./img/design/students-works/nearst-app-preview.png"></i>
                                         </div>
-                                        <p>Smart Audiobook Reader 2.0</p>
-                                        <p>Владислав Гетманенко</p>
+                                        <p>Nearst app </p>
+                                        <p>Grigory Uskov</p>
                                     </div>
                                 </li>
                             </ul>
@@ -1584,21 +1579,12 @@
             <script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
             <!-- Yandex.Share -->
             <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
-                <script src="./js/jquery.chocolat.js"></script>
-                <script>
+            <script>
                 $(".trend-list-item").Chocolat({
                     'imageSize':'cover',
                     'enableZoom':false
                 });
             </script>
-            
-            
-             <!-- <script src="./js/lightbox.js"></script>
-             <script>
-                 lightbox.option({
-                  'fitImagesInViewport': false
-                })
-             </script> -->
             <!-- Yandex.Metrika counter -->
             <script type="text/javascript">
             (function(d, w, c) {

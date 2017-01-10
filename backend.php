@@ -1130,21 +1130,12 @@
             <script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
             <!-- Yandex.Share -->
             <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
-                <script src="./js/jquery.chocolat.js"></script>
-                <script>
+            <script>
                 $(".trend-list-item").Chocolat({
                     'imageSize':'cover',
                     'enableZoom':false
                 });
             </script>
-            
-            
-             <!-- <script src="./js/lightbox.js"></script>
-             <script>
-                 lightbox.option({
-                  'fitImagesInViewport': false
-                })
-             </script> -->
             <!-- Yandex.Metrika counter -->
             <script type="text/javascript">
             (function(d, w, c) {
