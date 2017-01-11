@@ -3531,6 +3531,8 @@ body.chocolat-open > .chocolat-content {
     height: 500px; } }
 
 @media (max-width: 450px) {
+  .loader {
+    left: 40%; }
   .portfolio-wrap .sertificat {
     height: 500px;
     padding-top: 130px; }
@@ -3550,6 +3552,8 @@ body.chocolat-open > .chocolat-content {
     padding: 18px 0; } }
 
 @media (max-width: 420px) {
+  .loader {
+    left: 35%; }
   .link-button {
     text-align: center; }
   .title-wrap .line {
