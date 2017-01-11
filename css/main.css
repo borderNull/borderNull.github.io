@@ -283,6 +283,69 @@ body {
   background-size: cover;
   font-size: 16px; }
 
+.loader {
+  font-size: 10px;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #ff0000;
+  background: -webkit-linear-gradient(left, #ff0000 10%, rgba(255, 0, 0, 0) 42%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #ff0000), color-stop(42%, rgba(255, 0, 0, 0)));
+  background: linear-gradient(to right, #ff0000 10%, rgba(255, 0, 0, 0) 42%);
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: load3 1.4s infinite linear;
+          animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }
+
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ff0000;
+  -webkit-border-radius: 100% 0 0 0;
+          border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: ''; }
+
+.loader:after {
+  background: #000;
+  width: 75%;
+  height: 75%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
 .overflow-hidden {
   position: relative;
   overflow: hidden; }
@@ -2605,6 +2668,7 @@ footer {
   background: url(../img/close.png) 50% 50% no-repeat; }
 
 .chocolat-wrapper .chocolat-bottom {
+  display: none;
   position: absolute;
   bottom: 0;
   left: 0;

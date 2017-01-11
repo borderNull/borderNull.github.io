@@ -30,7 +30,7 @@
 </head>
 
 <body>
- <div id="loader" style="position: fixed;top: 0;bottom: 0;right: 0;left: 0;z-index: 9999;background-color: #000;">
+ <div id="loader-wrap" style="position: fixed;top: 0;bottom: 0;right: 0;left: 0;z-index: 9999;background-color: #000;"><div class="loader"></div>
     </div>
     <!--<img src="img/photo0000.png" class="img-out" alt="photo0000">-->
     <div id="login" class="modal-window">
@@ -1098,7 +1098,7 @@
             </footer>
             <script>
             window.onload = function() {
-                var loader = document.getElementById('loader');
+                var loader = document.getElementById('loader-wrap');
                 loader.parentNode.removeChild(loader);
             
                 function resizeHandler(e) {}
